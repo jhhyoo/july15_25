@@ -1,0 +1,21 @@
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 200px;
+    background-color: lavender;
+}
+
+.box1:hover {
+    background-color: aliceblue;
+}
+
+p {
+    opacity: 0;
+}
+
+.box1:hover p {
+    opacity: 1;
+}
